@@ -5,7 +5,7 @@
 
 #define MAX_STACK_SIZE (32)
 
-int Menu(void);
+int Menu(const IntStack* s);
 enum eMenuTable
 {
 	kMenuExit,
